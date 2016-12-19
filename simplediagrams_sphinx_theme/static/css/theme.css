@@ -5078,11 +5078,11 @@ div[class^='highlight'] pre {
   padding: 0.809em;
   margin-bottom: 0.809em;
   z-index: 200;
-  background-color: #2980B9;
+  background-color: #f3efe9;
   text-align: center;
   padding: 0.809em;
   display: block;
-  color: #fcfcfc;
+  color: #555555;
   margin-bottom: 0.809em;
 }
 .wy-side-nav-search input[type=text] {
@@ -5101,7 +5101,7 @@ div[class^='highlight'] pre {
   border-radius: 100%;
 }
 .wy-side-nav-search > a, .wy-side-nav-search .wy-dropdown > a {
-  color: #fcfcfc;
+  color: #555555;
   font-size: 100%;
   font-weight: bold;
   display: inline-block;
