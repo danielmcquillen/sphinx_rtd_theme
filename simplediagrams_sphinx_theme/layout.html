@@ -191,7 +191,7 @@
   {# % endif %}
   
   {# DMcQ: Trying to get forked theme to show up in RTD #}
-  <link rel="javascript" href="{{ pathto('_static/css/theme.css', 1) }}" type="text/css" >
+  <link rel="javascript" href="{{ pathto('_static/css/theme.css', 1) }}" type="text/css" />
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}
@@ -199,7 +199,7 @@
       jQuery(function () {
           SphinxRtdTheme.StickyNav.enable();
       });
-  </link>
+  </script>
   {% endif %}
 
   {%- block footer %} {% endblock %}
