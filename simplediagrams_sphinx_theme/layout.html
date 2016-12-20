@@ -36,11 +36,10 @@
   {# DMcQ: Changing this per instructions from RTD support. #}
   {# RTD hosts this file, so just load on non RTD builds #}
   {# % if not READTHEDOCS %}
-    <!-- <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" /> -->
+     <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
   {# % endif %}
   {# DMcQ: Trying to get forked theme css to show up in RTD #}
-  <link rel="javascript" href="{{ pathto('_static/js/theme.css', 1) }}" type="text/css" />
-
+  
   {% for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
   {% endfor %}
@@ -189,10 +188,8 @@
   {# DMcQ: Changing this per instructions from RTD support. #}
   {# RTD hosts this file, so just load on non RTD builds #}
   {# % if not READTHEDOCS %}
-    <!-- <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script> -->
+    <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
   {# % endif %}
-  {# DMcQ: Trying to get forked theme js to show up in RTD #}
-  <link rel="javascript" href="{{ pathto('_static/js/theme.js', 1) }}" type="text/css" />
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}
