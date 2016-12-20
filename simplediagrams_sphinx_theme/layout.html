@@ -36,6 +36,7 @@
   {# DMcQ: Changing this per instructions from RTD support. #}
   {# RTD hosts this file, so just load on non RTD builds #}
   {# % if not READTHEDOCS % #}
+     <!-- SimpleD custom theme css -->
      <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
   {# % endif % #}
   
@@ -186,9 +187,10 @@
 
   {# DMcQ: Changing this per instructions from RTD support. #}
   {# RTD hosts this file, so just load on non RTD builds #}
-  {# % if not READTHEDOCS %}
+  {# % if not READTHEDOCS % #}
+    <!-- SimpleD custom theme js -->
     <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
-  {# % endif %}
+  {# % endif % #}
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}
