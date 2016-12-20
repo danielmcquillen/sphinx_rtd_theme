@@ -186,12 +186,11 @@
 
   {% endif %}
 
+  {# DMcQ: Changing this per instructions from RTD support. #}
   {# RTD hosts this file, so just load on non RTD builds #}
   {# % if not READTHEDOCS %}
     <!-- <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script> -->
   {# % endif %}
-  
-  {# DMcQ: Changing this per instructions from RTD support. #}
   {# DMcQ: Trying to get forked theme js to show up in RTD #}
   <link rel="javascript" href="{{ pathto('_static/js/theme.js', 1) }}" type="text/css" />
 
