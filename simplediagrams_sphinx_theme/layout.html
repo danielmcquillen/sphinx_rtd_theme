@@ -35,10 +35,9 @@
 
   {# DMcQ: Changing this per instructions from RTD support. #}
   {# RTD hosts this file, so just load on non RTD builds #}
-  {# % if not READTHEDOCS %}
+  {# % if not READTHEDOCS % #}
      <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
-  {# % endif %}
-  {# DMcQ: Trying to get forked theme css to show up in RTD #}
+  {# % endif % #}
   
   {% for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
