@@ -93,15 +93,13 @@
           {% block sidebartitle %}
 
           <br>
-          <a  href="http://www.simplediagrams.com/" class="icon"><< back to SimpleDiagrams main site</a>
+          <a  href="http://www.simplediagrams.com/" class="icon"><< back to SimpleDiagrams</a>
           <br>
-
-          {% if logo %}
+          
+          <a href="{{ pathto(master_doc) }}">
             {# Not strictly valid HTML, but it's the only way to display/scale it properly, without weird scripting or heaps of work #}
             <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
-          {% endif %}
           </a>
-          <p>Super Simple Documentation</p>
 
           {% if theme_display_version %}
             {%- set nav_version = version %}
