@@ -5824,5 +5824,27 @@ span[id*='MathJax-Span'] {
   font-weight: 700;
   src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/RobotoSlab-Bold.ttf) format("truetype");
 }
+/* The Quick Ref table */
+#quickReference {
+  background-color: #F1F1F1;
+  border: 1px solid #E6E6E6;
+}
+#quickReference th {
+  background-color: #333333;
+  color: #EEE;
+}
+#quickReference tr:nth-child(even) {
+  background: #F1F1F1;
+}
+#quickReference tr:nth-child(odd) {
+  background: #F6F6F6;
+}
+#quickReference td, #quickReference th {
+  padding: 5px;
+}
+#quickReference .table-subhead td {
+  padding: 10px 0px 10px 5px;
+  background-color: #E6E6E6;
+}
 
 /*# sourceMappingURL=theme.css.map */
