@@ -5847,4 +5847,10 @@ span[id*='MathJax-Span'] {
   background-color: #E6E6E6;
 }
 
+/* Need a bit more space between sections of a page
+ * This is really evident on the "Toolbar" page */
+p.caption {
+  margin-top: 50px !important;
+}
+
 /*# sourceMappingURL=theme.css.map */
